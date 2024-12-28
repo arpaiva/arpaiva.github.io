@@ -1,0 +1,255 @@
+/*
+ * CSS theme for Antonio R. Paiva's homepage
+ * last modified: Dec 2020
+ *
+ * LICENSE:
+ * You're free to use, copy, modify this theme in whatever way you like.
+ * If you do, you are tacitly accepting that there is no warranty or
+ * liability protection from my part. In other words, use at you own risk!
+ */
+
+@charset "UTF-8";
+
+/* ----------------------------------------
+ * Base element definitions
+ */
+
+body {
+  font-family: "Open Sans", Tahoma, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: .9rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  color: #2a2a2a;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited {
+  color: #006400;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #228b22;
+}
+
+h1, h2, h3 {
+  color: #002040
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin: 10px 0 3px;
+}
+
+h2 {
+  font-size: 1.0rem;
+  margin: 7px 0 3px;
+}
+
+h3 {
+  font-size: .95rem;
+  margin: 5px 0 2px;
+}
+
+/* ----------------------------------------
+ * General layout definitions
+ */
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 2.6rem;
+  background-color: #003355;
+  z-index: 100;
+}
+
+.navbar {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+  color: #edf0f5;
+  text-align: left;
+}
+
+.navbar-title {
+  float: left;
+  vertical-align: middle;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #edf0f5;
+}
+
+.navlinks {
+  float: right;
+  margin: 0;
+}
+
+.navlinks ul {
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+.navlinks li {
+  display: inline-block;
+}
+
+.navlinks a, .navlinks a:visited {
+  color: #edf0f5;
+  margin: 0;
+  padding: 0.73rem;
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+  background-color: #3f5f95;
+  color: #edf0f5;
+  text-decoration: none;
+}
+
+.navlinks a.selected {
+  color: #6993d8;
+  background-color: #002040;
+  border-bottom: 3px solid #e32542;
+}
+
+.navlinks a.selected:hover {
+  color: #6993d8;
+  background-color: #002040;
+}
+
+#page-content {
+  clear: both;
+  overflow: auto;
+  max-width: 880px;
+  margin: 0 auto 5px;
+  padding: 2.5rem 10px 0;
+}
+
+#footer {
+  clear: both;
+  width: 100%;
+  background-color: #edf0f5;
+  border-top: 1px solid #999999;
+  color: #555555;
+  padding: 8px 0 10px 0;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+/* ----------------------------------------
+ * Settings for the intro page
+ */
+
+.about-info {
+  float: left;
+  text-align: center;
+  margin: 40px 30px 20px 20px;
+}
+
+.myphoto {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px;
+  padding: 0;
+}
+
+.ref-icons a {
+  font-size: 1.9em;
+  color: #2e8b57;
+  margin: 0 auto;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.ref-icons a:hover {
+  color: #006400;
+}
+
+.about-text {
+  overflow: hidden;
+  margin: 10px;
+}
+
+/* ----------------------------------------
+ * Settings for the publications page
+ */
+
+.pubs ol {
+  margin: 0;
+  padding: 0 2em;
+  list-style-position: outside;
+  list-style-type: decimal;
+}
+
+.pubs ol li {
+  margin: 0 0;
+  padding: 0.6ex 0.6ex;
+  line-height: 1.3;
+}
+
+.pub-section-title p {
+  position: absolute;
+  left: 0;
+  top: -4.2rem;
+}
+
+.pub-section-title {
+  position: relative;
+}
+
+.pub-section-title a {
+  text-decoration: none;
+}
+
+.pub-section-links a, .pub-section-links a:visited {
+  display: inline-block;
+  margin: 2px 0;
+  padding: 3px 5px;
+  color: #336600;
+  background-color: #dcdcdc;
+  text-decoration: none;
+}
+
+.pub-section-links a:hover {
+  color: #edf0f5;
+  background-color: #6993d8;
+}
+
+/* ----------------------------------------
+ * Mobile changes
+ */
+
+@media only screen and (max-width: 740px) {
+  .about-info {
+    float: none;
+    text-align: center;
+    margin: 40px 20px 0;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .pub-section-links a, .pub-section-links a:visited {
+    display: block;
+  }
+}
