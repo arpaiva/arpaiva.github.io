@@ -1,31 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>Antonio Paiva homepage</title>
-  <meta name="author" content="Antonio R. Paiva" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Antonio R. Paiva homepage" />
-  <link rel="stylesheet" type="text/css" href="style.css" media="all" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" />
-</head>
-<body>
-<div class="wrapper">
-  <div id="container">
-    <div id="header">
-      <div class="navbar">
-		<div class="navbar-title">Antonio R. Paiva</div>
-        <ul class="navlinks">
-          <li><a href="index.html">About</a></li>
-          <li><a href="pubs.html" class="selected">Publications</a></li>
-          <li><a href="cv.pdf">CV</a></li>
-          <li><a href="resume.pdf">R&eacute;sum&eacute;</a></li>
-        </ul>
-      </div>
-    </div>
-    <div id="page-content">
-<!-- ====================================== -->
-
+#include "[[HEADER]]"
 
 <h1>Publications</h1>
 
@@ -48,7 +21,7 @@
 <!-- ======================================================================= -->
 <div class="pub-section-title">
   <p id="preprints"></p>
-  <h2>Recent preprints <a href="" title="Return to top"><i class="fa fa-caret-up"></i></a></h2>
+  <h2>Recent preprints [[GO_TO_TOP]]</h2>
 </div>
 
 <ol>
@@ -62,7 +35,7 @@
 <!-- ======================================================================= -->
 <div class="pub-section-title">
   <p id="chapters"></p>
-  <h2>Book chapters <a href="" title="Return to top"><i class="fa fa-caret-up"></i></a></h2>
+  <h2>Book chapters [[GO_TO_TOP]]</h2>
 </div>
 
 <ol>
@@ -102,7 +75,7 @@
 <!-- ======================================================================= -->
 <div class="pub-section-title">
   <p id="journals"></p>
-  <h2>Journal articles <a href="" title="Return to top"><i class="fa fa-caret-up"></i></a></h2>
+  <h2>Journal articles [[GO_TO_TOP]]</h2>
 </div>
 
 <ol>
@@ -222,7 +195,7 @@
 <!-- ======================================================================= -->
 <div class="pub-section-title">
   <p id="conferences"></p>
-  <h2>Refereed conference articles <a href="" title="Return to top"><i class="fa fa-caret-up"></i></a></h2>
+  <h2>Refereed conference articles [[GO_TO_TOP]]</h2>
 </div>
 
 <ol>
@@ -400,7 +373,7 @@
 <!-- ======================================================================= -->
 <div class="pub-section-title">
   <p id="abstracts"></p>
-  <h2>Conference abstracts <a href="" title="Return to top"><i class="fa fa-caret-up"></i></a></h2>
+  <h2>Conference abstracts [[GO_TO_TOP]]</h2>
 </div>
 
 <ol>
@@ -448,7 +421,7 @@
 <!-- ======================================================================= -->
 <div class="pub-section-title">
   <p id="techrep"></p>
-  <h2>Dissertation and Technical Reports <a href="" title="Return to top"><i class="fa fa-caret-up"></i></a></h2>
+  <h2>Dissertation and Technical Reports [[GO_TO_TOP]]</h2>
 </div>
 
 <ol>
@@ -507,17 +480,4 @@ works must be obtained from the IEEE.
  "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible."
 </blockquote>
 
-
-<!-- ====================================== -->
-    </div>
-  </div>
-  <div id="footer">
-    <div style="display: inline-block; margin-right: 50px;">
-        &copy;&nbsp;2020&nbsp;Antonio R. Paiva
-    </div>
-    last updated: Dec 27, 2024
-  </div>
-</div>
-
-</body>
-</html>
+#include "[[FOOTER]]"

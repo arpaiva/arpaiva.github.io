@@ -1,0 +1,33 @@
+//
+// GTML is available from https://github.com/pronovic/gtml
+//
+
+define OUTPUT_DIR .
+
+// ==============================
+// Macro commands
+
+timestamp $Mmm $dd, $yyyy
+
+define OPEN_DELIMITER   [[
+define CLOSE_DELIMITER  ]]
+
+define GO_TO_TOP  <a href="" title="Return to top"><i class="fa fa-caret-up"></i></a>
+
+// ==============================
+// Filename aliases
+
+filename HEADER   header.html
+filename FOOTER   footer.html
+filename MAIN     index.gtm
+filename PUBS     pubs.gtm
+filename BIO      bio.gtm
+
+// ==============================
+// Source files
+
+[[MAIN]]
+[[PUBS]]
+[[BIO]]
+
+// end of mySite.gtp

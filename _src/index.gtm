@@ -1,31 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>Antonio Paiva homepage</title>
-  <meta name="author" content="Antonio R. Paiva" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Antonio R. Paiva homepage" />
-  <link rel="stylesheet" type="text/css" href="style.css" media="all" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" />
-</head>
-<body>
-<div class="wrapper">
-  <div id="container">
-    <div id="header">
-      <div class="navbar">
-		<div class="navbar-title">Antonio R. Paiva</div>
-        <ul class="navlinks">
-          <li><a href="index.html" class="selected">About</a></li>
-          <li><a href="pubs.html">Publications</a></li>
-          <li><a href="cv.pdf">CV</a></li>
-          <li><a href="resume.pdf">R&eacute;sum&eacute;</a></li>
-        </ul>
-      </div>
-    </div>
-    <div id="page-content">
-<!-- ====================================== -->
-
+#include "[[HEADER]]"
 
 <div class="about-info">
   <img class="myphoto" src="photo.jpg" alt="photo" /><br/>
@@ -68,17 +41,4 @@ at the University of Florida.</p>
 
 </div>
 
-
-<!-- ====================================== -->
-    </div>
-  </div>
-  <div id="footer">
-    <div style="display: inline-block; margin-right: 50px;">
-        &copy;&nbsp;2020&nbsp;Antonio R. Paiva
-    </div>
-    last updated: Dec 27, 2024
-  </div>
-</div>
-
-</body>
-</html>
+#include "[[FOOTER]]"
