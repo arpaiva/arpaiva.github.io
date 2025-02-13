@@ -26,9 +26,14 @@
 
 <ol>
 <li>
+	<a href="https://arxiv.org/abs/2501.16480">Modular framework for uncertainty prediction in autonomous vehicle motion forecasting within complex traffic scenarios,</a>
+	Han Wang, Yuneil Yeo, <b>Antonio R. Paiva</b>, Jean Utke, Maria Laura Delle Monache,<br/>
+	<a href="https://arxiv.org/abs/2501.16480" target="_blank">arXiv:2501.16480</a>, 2025.
+</li>
+<li>
 	<a href="https://arxiv.org/abs/2205.00894">Modeling and mitigation of occupational safety risks in dynamic industrial environments,</a><br/>
 	Ashutosh Tewari and <b>Antonio R. Paiva</b>,<br/>
-	<a href="https://arxiv.org/abs/2205.00894" target="_blank">https://arxiv.org/abs/2205.00894</a>, 2022.
+	<a href="https://arxiv.org/abs/2205.00894" target="_blank">arXiv:2205.00894</a>, 2022.
 </li>
 </ol>
 
@@ -200,11 +205,17 @@
 
 <ol>
 <li>
+	<a href="https://doi.org/10.1190/segam2021-3584203.1" target="_blank">Towards practical Bayesian inversion of geobodies using geologic priors,</a><br/>
+	Ashutosh Tewari, Brent Wheelock, <b>Antonio R. Paiva</b>, Arash Fathi, and Myun-Seok Cheon,<br/>
+	<i>SEG International Exposition and Annual Meeting</i>, (Denver, CO, USA), Sept 2021.
+		<a href="https://doi.org/10.1190/segam2021-3584203.1" target="_blank">doi:10.1190/segam2021-3584203.1</a>.
+</li>
+<li>
 	<a href="http://arxiv.org/abs/2109.04356" target="_blank">Assessing Machine Learning Approaches to Address IoT Sensor Drift,</a><br/>
 	Haining Zheng and <b>Antonio R. Paiva</b>,<br/>
 	<i>4rd International Workshop on Artificial Intelligence of Things (AIoT), 
 	in conjunction with the 27th ACM SIGKDD International Conference on 
-	Knowledge Discovery and Data Mining (KDD 2020)</i>, (Singapore), Aug 2021.
+	Knowledge Discovery and Data Mining (KDD 2021)</i>, (Singapore), Aug 2021.
 </li>
 <li>
 	<a href="https://arxiv.org/abs/2009.00351" target="_blank">Advancing from Predictive Maintenance to Intelligent Maintenance with AI and IIoT,</a><br/>
